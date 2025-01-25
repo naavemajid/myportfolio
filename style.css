@@ -212,8 +212,8 @@ footer {
     }
 
     .container{
-        /* display: flex; */
-        /* align-items: center; */
+        display: flex; 
+        align-items: center;
         margin: auto 90px;
         gap: 10px;
         flex-wrap: wrap;
