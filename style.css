@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    color: white;
+    padding: 20px;
+    background-color: #001A6E;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.navbar{
+    
+    display: flex;
+    gap: 15px;
+}
+
+.navbar li{
+    list-style-type: none;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover{
+   color: #009990;
+   font-size: 17px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    background-color: #E4E0E1;
+    /* margin: auto 100px; */
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 60px;
+    /* margin-top: 30px; */
+  
+    
+}
+
+.hero img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+/* Skills section */
+.skill-head{
+    margin-top: 100px;
+    text-align: center;
+}
+.container{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    /* padding: 40px; */
+}
+
+
+.fa-brands{
+    width: 30px;
+}
+.skills-container{
+background-color: #45a1ff;
+    width: 250px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* PROJECTS */
+
+.projects{
+    margin-top: 100px;
+    text-align: center;
+}
+.projects-done{
+    display: flex;
+    gap: 10px;
+}
+
+.projects h2{
+    margin-bottom: 30px;
+}
+
+.projects div{
+    width: 400px;
+   border-bottom: 1px solid ;
+}
+
+.recommendations{
+    margin-top: 100px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+.recommend{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.recommend div{
+    width: 250px;
+    background-color:  #45a1ff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Leave a recommendation message */
+.recommend-form{
+    margin-top: 100px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.recommend-form form{
+    margin-top: 30px;
+}
+
+
+.recommend-form input{
+    width: 500px;
+}
+
+
+.recommend-form textarea{
+    width: 500px;
+    margin-top: 10px;
+}
+
+
+.recommend-form button{
+    width: 250px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    border: 1px solid #45a1ff;
+    color: #45a1ff;
+}
+
+.successMessage{
+    display: none;
+    background-color: #C2FFC7;
+    padding: 20px;
+    width: 350px;
+    border-radius: 10px;
+    z-index: 2;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.successMessage button{
+    padding: 10px;
+    border: none;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 30px;
+    padding: 20px;
+    background-color: #45a1ff;
+    color: #fff;
+  }
+  
+
+
+  @media only screen and (max-width: 490px) {
+    .header{
+        display: flex;
+        color: white;
+        flex-direction: column;
+        background-color: #001A6E;
+        justify-content: space-between;
+        align-items: center;
+       
+    }
+
+    .hero{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+        padding: 60px;
+        /* margin-top: 30px; */
+      
+        
+    }
+    .hero img{
+        display: none;
+        
+    }
+
+    .container{
+        /* display: flex; */
+        /* align-items: center; */
+        margin: auto 90px;
+        gap: 10px;
+        flex-wrap: wrap;
+        margin-top: 30px;
+
+    }
+
+    .recommendations{
+        margin: auto 20px;
+        text-align: center;
+        gap: 5px;
+        padding: 2px;
+    }
+
+    .recommend-form{
+        margin: 10px 20px;
+        text-align: center;
+       
+    }
+
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: #45a1ff;
+        color: #fff;
+      }
+      
+  }
