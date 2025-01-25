@@ -90,6 +90,8 @@ background-color: #45a1ff;
 }
 .projects-done{
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
 }
 
